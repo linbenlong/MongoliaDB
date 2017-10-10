@@ -9,9 +9,10 @@ namespace MongoliaDB
 {
    public class LogModel
     {
-        public ObjectId Id { get; set; }
+        public ObjectId Id { get; set; }   //唯一标识
         public DateTime Date { get; set; }
         public string Level { get; set; }
         public string Message { get; set; }
+
     }
 }
