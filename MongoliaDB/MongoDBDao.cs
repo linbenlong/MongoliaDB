@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace MongoliaDB
 {
+    //数据访问层
     public class MongoDBDao
     {
         private static object objLock = new object();
